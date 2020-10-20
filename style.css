@@ -1,0 +1,134 @@
+@import url("node_modules/animate.css/animate.min.css");
+.bg-menu {
+  background-color: rgb(126, 35, 230);
+}
+.bg-facility {
+  background-color: rgb(183, 223, 241);
+}
+.navbar{
+  font-size: 20px;
+}
+
+.jumbotron {
+  background-color: rgb(209, 196, 224);
+}
+
+.bg-complete {
+  background-color: rgb(61, 206, 61);
+}
+
+.hiw-card1,
+.hiw-card2,
+.hiw-card3 {
+  opacity: 0;
+}
+
+.hiw-card1.animated,
+.hiw-card2.animated,
+.hiw-card3.animated {
+  opacity: 1;
+}
+
+body {
+  background: #207ab6;
+  background: linear-gradient(to right, #d3dbe6, #b4d5eb);
+}
+
+.btn-whatsapp {
+  background: #23c989;
+}
+.btn-mail {
+  background: #d4a31d;
+}
+
+.item-visa {
+  height: 40vh;
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  .item-visa {
+    height: 70vh;
+    width: 100%;
+  }
+  .extended-nav {
+    position: relative;
+    height: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: -100px;
+  }
+  .extended-nav img {
+    width: 200px;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .carousel-caption {
+    font-size: medium;
+    margin-bottom: -35px;
+  }
+}
+
+/*Pricing CSS*/
+section.pricing {
+  background: #007bff69;
+  background: linear-gradient(to right, #779ccc, #aedeff);
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
