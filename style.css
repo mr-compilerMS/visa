@@ -1,11 +1,10 @@
-@import url("node_modules/animate.css/animate.min.css");
 .bg-menu {
   background-color: rgb(126, 35, 230);
 }
 .bg-facility {
   background-color: rgb(183, 223, 241);
 }
-.navbar{
+.navbar {
   font-size: 20px;
 }
 
@@ -31,7 +30,7 @@
 
 body {
   background: #207ab6;
-  background: linear-gradient(to right, #d3dbe6, #b4d5eb);
+  background: linear-gradient(to right, #d2f9fa, #b4d5eb);
 }
 
 .btn-whatsapp {
