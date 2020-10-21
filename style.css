@@ -9,7 +9,12 @@
 }
 
 .jumbotron {
-  background-color: rgb(209, 196, 224);
+  background-color: rgb(252, 177, 236);
+  background: linear-gradient(to right, #b719d346, #eab0f1);
+
+  margin-top: 60px;
+  padding-top: 70px;
+  padding-bottom: 10px;
 }
 
 .bg-complete {
@@ -20,12 +25,6 @@
 .hiw-card2,
 .hiw-card3 {
   opacity: 0;
-}
-
-.hiw-card1.animated,
-.hiw-card2.animated,
-.hiw-card3.animated {
-  opacity: 1;
 }
 
 body {

@@ -59,19 +59,26 @@
     <section class="mt-5 pt-5">
       <h1 class="text-center">About</h1>
       <div class="row">
-        <div class="col-5 text-center">
+        <div class="col-sm-5 col-12 text-center">
           <br />
           <img src="images/logo.png" />
         </div>
-        <div class="col-7">
+        <div class="col-sm-7 col-12">
           <br />
-          <h1>Now we together can make change in Visa Industry.</h1>
+          <h1 class="text-center">
+            Now we together can make change in Visa Industry.
+          </h1>
           <br />
-          <h4>
+          <h4 class="p-4">
             You love to travel, but don’t want to waste your much money.<br />Then
             you are at right place.
           </h4>
-          <a class="btn btn-primary" href="contact.html">
+          <div class="text-center d-sm-none">
+            <a class="btn btn-primary" href="contact.html">
+              Contact Us To Start</a
+            >
+          </div>
+          <a class="btn btn-primary d-sm-block d-none m-3" href="contact.html">
             Contact Us To Start</a
           >
         </div>
@@ -136,12 +143,5 @@
       integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
       crossorigin="anonymous"
     ></script>
-    <!-- Navbar Animation -->
-    <script>
-      $(document).on("scroll", (e) => {
-        if (window.pageYOffset > 80) $(".navbar").removeClass("extended-nav");
-        if (window.pageYOffset < 80) $(".navbar").addClass("extended-nav");
-      });
-    </script>
   </body>
 </html>
